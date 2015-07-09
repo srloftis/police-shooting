@@ -1,1 +1,32 @@
-/* You'll probably want to add some styles here */
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+#container{
+	height: 90vh;
+	width: 1000px;
+	float: right;
+	margin: 2.5%;
+}
+
+body{
+	background-color: #8E4585;
+	font-family: "Open Sans";
+	margin: 0;
+}
+
+#sidebar{
+	float: left;
+	width: 25%;
+	background-color: #F5F5FF;
+	padding-left: 15px;
+	padding-right: 30px;
+	height: 100vh;
+}
+
+h1, h2{
+	font-family: "Slabo 27px"
+}
+
+a{
+	text-decoration: none;
+}
